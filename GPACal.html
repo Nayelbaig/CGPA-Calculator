@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+    body {
+        background-color: black;
+    }
+    </style>
+
+</head>
+<body>
+<script>
+    //var tc = 0
+    var courses = prompt("How much total courses you have passed ?");
+    var tc = parseInt(courses);
+
+    //var C = 0;
+
+    var c = prompt("How many C's you have ?");
+
+
+    var C = parseInt(c);
+
+    var cal1 = (C*2);
+
+///
+   // var Cplus = 0;
+
+    var cplus = prompt("How many C+ you have ?");
+
+
+    var Cplus = parseInt(cplus);
+
+    var cal2 = (Cplus*2.5);
+///
+
+
+    //var B = 0;
+
+    var b = prompt("How many B's you have ?");
+
+
+    var B = parseInt(b);
+
+    var cal3 = (B*3);
+
+
+    ///
+    //var Bplus = 0;
+
+    var bplus = prompt("How many B+ you have ?");
+
+
+    var Bplus = parseInt(bplus);
+
+    var cal4 = (Bplus*3.5);
+///
+
+    //var A = 0;
+
+    var a = prompt("How many A's you have ?");
+
+
+    var A = parseInt(a);
+
+    var cal5 = (A*4);
+
+    var CGPA = (cal1 +cal2 + cal3 + cal4 +cal5)/tc;
+
+    var cgpa = CGPA.toFixed(2);
+
+    alert("Congrats!! Your CGPA is "+ cgpa + ".");
+</script>
+</body>
+</html>
